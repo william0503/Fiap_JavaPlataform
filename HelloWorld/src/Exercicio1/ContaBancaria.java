@@ -1,6 +1,6 @@
 package Exercicio1;
 
-public class ContaBancaria {
+public abstract class ContaBancaria {
 	private String titular;	
 	private int numeroConta;	
 	protected double saldo;
@@ -40,8 +40,6 @@ public class ContaBancaria {
 			System.out.println(String.format("Seu saque de R$%s não pode ser maior do que o saldo disponível", valor) );
 	}
 	
-	public String getTipo() {
-		return "Conta";
-	}
+	public abstract String getTipo();
 }
 

@@ -18,6 +18,7 @@ public class Teste {
 		c2.saque(10);
 		System.out.println("Saldo atual: R$" + c2.getSaldo());
 		
+		System.out.println("");
 		
 		ContaCorrente c3 = new ContaCorrente("Pedro");
 		System.out.println(c3.getTipo() + ", titular: " + c3.getTitular() + ", conta: " + c3.getNumeroConta());
