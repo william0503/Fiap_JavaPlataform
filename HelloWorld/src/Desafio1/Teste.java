@@ -26,10 +26,13 @@ public class Teste {
 			break;
 		case 2:
 			System.out.println(op1 + " - " + op2 + " = " + c.subtrair(op1, op2));
+			break;
 		case 3:
 			System.out.println(op1 + " / " + op2 + " = " + c.dividir(op1, op2));
+			break;
 		case 4:
 			System.out.println(op1 + " * " + op2 + " = " + c.multiplicar(op1, op2));
+			break;
 		default:
 			break;
 		}
